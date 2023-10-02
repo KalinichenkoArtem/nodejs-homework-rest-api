@@ -1,5 +1,5 @@
-const Contact = require("../models/contact");
-const { HttpError } = require("../helpers/HttpError");
+const Contact = require("../models/index");
+const { HttpError } = require("../helpers/index");
 const { addSchema, updateFavoriteSchema } = require("../schemas/index");
 
 const getContacts = async (req, res, next) => {

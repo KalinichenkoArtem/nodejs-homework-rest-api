@@ -7,7 +7,7 @@ const {
   deleteContact,
   putContact,
   patchContact,
-} = require("../../controllers");
+} = require("../../controllers/index");
 
 const { isValidId } = require("../../middlewares/index");
 
