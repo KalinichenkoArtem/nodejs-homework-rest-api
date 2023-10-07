@@ -5,6 +5,7 @@ const {
   deleteContact,
   putContact,
   patchContact,
+  verifyEmail,
 } = require("./contacts");
 
 module.exports = {
@@ -14,4 +15,5 @@ module.exports = {
   deleteContact,
   putContact,
   patchContact,
+  verifyEmail,
 };
